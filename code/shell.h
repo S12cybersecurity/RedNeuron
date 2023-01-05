@@ -5,14 +5,18 @@
 using namespace std;
 
 string op;
+int cont;
 
 void createshell(){
-    op = "a";
-    createmenu();
+    op = "";
+    cont = 0;
+    createmenu(); 
     while (op != "exit" && op != "Exit" && op != "EXIT" )
     {
-        cout<<"\nRedNeuron@create-> ";
-        getline(cin, op);     
+        if (cont != 0) {
+            cout<<"\nRedNeuron@create-> ";
+        }
+        getline(cin, op);    
         if (op == "list" || op == "List" || op == "LIST"){
             listcreate();
         }
@@ -28,9 +32,13 @@ void createshell(){
         if (op == "clear" || op == "Clear" || op == "CLEAR"){
             system("clear");
         }
+        if (op == "commands" || op == "Commands" || op == "COMMANDS"){
+            createcommands();
+        }
         if (op == "main" || op == "Main" || op == "MAIN"){
             //soon...
         }
+        cont++;
     }
 }
 
