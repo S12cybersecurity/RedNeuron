@@ -52,7 +52,7 @@ If you want to create malware, you execute create command:
 
 ![image](https://user-images.githubusercontent.com/79543461/210820487-398d9c8a-c05b-449a-9e44-d1abff2ed3a1.png)
 
-With list command you can see all avaible malware:
+With list command you can see all available malware:
 
 ![image](https://user-images.githubusercontent.com/79543461/210816492-bec214b3-6d03-48c5-b357-6c8506f730a4.png)
 
