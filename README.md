@@ -38,6 +38,10 @@ apt update && apt install python2 && apt install g++-mingw-w64
 
 Guide: https://adamtheautomator.com/install-metasploit-on-ubuntu/
 
+**Set RedNeuron as executable**
+
+chmod +x RedNeuron
+
 # Usage
 
 Execute ./RedNeuron
