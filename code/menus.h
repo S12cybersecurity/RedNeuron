@@ -21,11 +21,11 @@ void commandsmenu(){
 }
 
 void createcommands(){
-    cyan("\nCommands:\n- help -> Show Help Menu\n- list -> List all malware avaible\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- commands -> List avaible commands\n- clear -> Clear actual screen\n");
+    cyan("\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware avaible \n- commands -> List avaible commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n");
 }
 
 void createmenu() {
-    cyan("\nHelp Menu for Create\nIf you want to see all malware avaible execute 'list' command \n\nCreate Section in RedNeuron allow you to use this commands:\n- help -> Show this Menu\n- list -> List all malware avaible\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- commands -> List avaible commands\n- clear -> Clear actual screen\n");
+    cyan("\nHelp Menu for Create\nIf you want to see all malware avaible execute 'list' command \n\nCreate Section in RedNeuron allow you to use this commands:\n\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware avaible \n- commands -> List avaible commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n");
 }
 
 void listcreate(){
