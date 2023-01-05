@@ -40,3 +40,15 @@ Guide: https://adamtheautomator.com/install-metasploit-on-ubuntu/
 
 # Usage
 
+Execute ./RedNeuron
+
+![image](https://user-images.githubusercontent.com/79543461/210810523-37e7a677-3bfd-45d6-8c0e-a5fc23fd1d6b.png)
+
+If you want to create malware, you execute create command:
+
+![image](https://user-images.githubusercontent.com/79543461/210816114-e1472c2b-067e-4dd6-9710-c9fde9dfee84.png)
+
+With list command you can see all avaible malware:
+
+![image](https://user-images.githubusercontent.com/79543461/210816492-bec214b3-6d03-48c5-b357-6c8506f730a4.png)
+
