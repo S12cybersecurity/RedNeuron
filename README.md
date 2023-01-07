@@ -18,6 +18,8 @@ This tool have a shell to use and move inside RedNeuron, in this moment only hav
 - Create
 
 Future Malware tools:
+- Persistence
+- File Extractor
 - C2 Server
 - KeyLogger
 - Ransomware
