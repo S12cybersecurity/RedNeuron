@@ -44,6 +44,12 @@ Guide: https://adamtheautomator.com/install-metasploit-on-ubuntu/
 
 chmod +x RedNeuron
 
+**Compile**
+
+The code it's compiled, but if you want to compile run this command:
+
+gcc redneuron.cpp -lstdc++ -Wwrite-strings -o RedNeuron
+
 # Usage
 
 Execute ./RedNeuron
