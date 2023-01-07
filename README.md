@@ -44,6 +44,14 @@ Guide: https://adamtheautomator.com/install-metasploit-on-ubuntu/
 
 chmod +x RedNeuron
 
+**Python2 requeriments**
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+
+python2 get-pip.py
+
+pip2 install pycryptodome
+
 **Compile**
 
 The code it's compiled, but if you want to compile run this command:
