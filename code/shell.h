@@ -8,7 +8,7 @@ string op;
 int cont;
 
 void createshell(){
-    op = "";
+    string op;
     cont = 0;
     createmenu(); 
     while (op != "exit" && op != "Exit" && op != "EXIT" )
@@ -20,23 +20,31 @@ void createshell(){
         if (op == "list" || op == "List" || op == "LIST"){
             listcreate();
         }
-        if (op == "help" || op == "Help" || op == "HELP"){
+        else if(op == "a"){
+            //hahah
+        }
+        else if (op == "help" || op == "Help" || op == "HELP"){
             createmenu();
         }
-        if (op == "reverse shell"){
+        else if (op == "reverse shell"){
             createrevshell();
         }
-        if (op == "revshell" || op == "Revshell" || op == "REVSHELL"){
+        else if (op == "revshell" || op == "Revshell" || op == "REVSHELL"){
             createrevshell();
         }
-        if (op == "clear" || op == "Clear" || op == "CLEAR"){
+        else if (op == "clear" || op == "Clear" || op == "CLEAR"){
             system("clear");
         }
-        if (op == "commands" || op == "Commands" || op == "COMMANDS"){
+        else if (op == "commands" || op == "Commands" || op == "COMMANDS"){
             createcommands();
         }
-        if (op == "main" || op == "Main" || op == "MAIN"){
+        else if (op == "main" || op == "Main" || op == "MAIN"){
             //soon...
+        }
+        else{
+            if (cont != 0){
+                red("\n[-] Command not found\n");
+            }
         }
         cont++;
     }
@@ -50,30 +58,33 @@ static int mainshell(){
         if (op == "create" || op == "Create" || op == "CREATE"){
             createshell();
         }
-        if (op == "create help" || op == "Create Help" || op == "CREATE HELP"){
+        else if (op == "create help" || op == "Create Help" || op == "CREATE HELP"){
             //createmenu();
         }
-        if (op == "create list" || op == "Create List" || op == "CREATE LIST"){
+        else if (op == "create list" || op == "Create List" || op == "CREATE LIST"){
             listcreate();
         }
-        if (op == "create revshell" || op == "Create Revshell" || op == "CREATE REVSHELL"){
+        else if (op == "create revshell" || op == "Create Revshell" || op == "CREATE REVSHELL"){
             createrevshell();
         }
-        if (op == "clear" || op == "Clear" || op == "CLEAR"){
+        else if (op == "clear" || op == "Clear" || op == "CLEAR"){
             system("clear");
         }
-        if (op == "help" || op == "Help" || op == "HELP"){
+        else if (op == "help" || op == "Help" || op == "HELP"){
             helpmenu();
         }
-        if (op == "list" || op == "List" || op == "LIST"){
+        else if (op == "list" || op == "List" || op == "LIST"){
             commandsmenu();
         }
-        if (op == "commands" || op == "Commands" || op == "COMMANDS"){
+        else if (op == "commands" || op == "Commands" || op == "COMMANDS"){
             commandsmenu();
         }
-        if (op == "create reverse shell" || op == "Create Reverse Shell" || op == "CREATE REVERSE SHELL"){
+        else if (op == "create reverse shell" || op == "Create Reverse Shell" || op == "CREATE REVERSE SHELL"){
             createrevshell();
         }       
+        else{
+            red("\n[-] Command not found\n");
+        }
     }
     green("\nBye Bye :)");
 
