@@ -8,7 +8,7 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
+Actually in Version 1, the only malware option to create is a Undetectable Reverse Shell to bypass Windows Defender, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
@@ -18,6 +18,7 @@ This tool have a shell to use and move inside RedNeuron, in this moment only hav
 - Create
 
 Future Malware tools:
+- Persistence
 - File Extractor
 - C2 Server
 - KeyLogger
@@ -33,7 +34,7 @@ git clone https://github.com/S12cybersecurity/RedNeuron
 
 **Install requeriments:**
 
-apt update && apt install python2 && apt install g++-mingw-w64
+apt update && apt install python2 && apt install g++-mingw-w64 && apt install sed
 
 **If you don't have Metasploit you need to install.**
 
@@ -65,17 +66,15 @@ Execute ./RedNeuron
 
 If you want to create malware, you execute create command:
 
-![image](https://user-images.githubusercontent.com/79543461/212728043-bdabe8f2-056f-4fcf-ae2d-9cab650b82be.png)
+![image](https://user-images.githubusercontent.com/79543461/210820487-398d9c8a-c05b-449a-9e44-d1abff2ed3a1.png)
 
 With list command you can see all available malware:
 
-![image](https://user-images.githubusercontent.com/79543461/212728136-0e453634-f5ce-4380-9174-10eb994d4aa8.png)
+![image](https://user-images.githubusercontent.com/79543461/210816492-bec214b3-6d03-48c5-b357-6c8506f730a4.png)
 
 Create Undetectable Windows Reverse Shell:
 
 ![image](https://user-images.githubusercontent.com/79543461/210821342-e18e2053-c7c7-404f-9313-03f2d2a8c32b.png)
 
-Create Windows Persistence File:
 
-![image](https://user-images.githubusercontent.com/79543461/212728269-3ce8ae5e-d3a0-431e-98b0-7cf70ebe4909.png)
 
