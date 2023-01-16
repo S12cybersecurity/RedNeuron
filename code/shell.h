@@ -41,6 +41,9 @@ void createshell(){
         else if (op == "main" || op == "Main" || op == "MAIN"){
             //soon...
         }
+        else if (op == "persistence" || op == "Persistence" || op == "PERSISTENCE"){
+            createpersistence();
+        }
         else{
             if (cont != 0){
                 red("\n[-] Command not found\n");
