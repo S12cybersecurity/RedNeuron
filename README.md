@@ -8,7 +8,7 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1, the only malware option to create is a Undetectable Reverse Shell to bypass Windows Defender, this tool are developed mainly with 3 languages:
+Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
@@ -18,7 +18,6 @@ This tool have a shell to use and move inside RedNeuron, in this moment only hav
 - Create
 
 Future Malware tools:
-- Persistence
 - File Extractor
 - C2 Server
 - KeyLogger
