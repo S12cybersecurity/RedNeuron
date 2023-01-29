@@ -13,15 +13,17 @@ Actually in Version 1.3, the uniques 2 malwares options to create is a Undetecta
 - Python
 - Bash
 
-This tool have a shell to use and move inside RedNeuron, in this moment only have two sections
+This tool have a shell to use and move inside RedNeuron, in this moment only have three sections
 - Main
 - Create
+- Bruteforce
 
 Future Malware tools:
 - File Extractor
 - C2 Server
 - KeyLogger
 - Ransomware
+- Password Stealer
 
 ![image](https://user-images.githubusercontent.com/79543461/210807455-2dae7b7f-884d-47de-81c3-0f9bde1cbc27.png)
 
