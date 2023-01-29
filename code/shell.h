@@ -53,6 +53,25 @@ void createshell(){
     }
 }
 
+static int bruteforceshell(){
+    op = "a";
+    while (op != "exit" && op != "Exit" && op != "EXIT"){
+        cout<<"\nRedNeuron@bruteforce-> ";
+        cin>>op;
+        if (op == "ssh" || op == "Ssh" || op == "SSH"){
+            system("./code/bruteforce/ssh/bruteSSH");
+        }
+        else if(op == "help" || op == "Help" || op == "HELP" || op == "commands" || op == "Commands" || op == "COMMANDS"){
+            bruteforcemenu();
+        }
+        else if (op == "list" || op == "List" || op == "LIST"){
+            bruteforcelist();
+        }
+        
+    }
+    return 0;
+}
+
 static int mainshell(){
     op = "a";
     while (op != "exit" && op != "Exit" && op != "EXIT" ){
@@ -81,6 +100,10 @@ static int mainshell(){
         }
         else if (op == "commands" || op == "Commands" || op == "COMMANDS"){
             commandsmenu();
+        }
+        else if (op == "bruteforce" || op == "Bruteforce" || op == "BRUTEFORCE"){
+            bruteforcemenu();
+            bruteforceshell();
         }
         else if (op == "create reverse shell" || op == "Create Reverse Shell" || op == "CREATE REVERSE SHELL"){
             createrevshell();

