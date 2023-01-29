@@ -8,7 +8,7 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
+Actually in Version 1.3, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, but to difference between Version 1.2, the version 1.3 have a option to bruteforce SSH Servers, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
@@ -79,3 +79,18 @@ Create Windows Persistence File:
 
 ![image](https://user-images.githubusercontent.com/79543461/212728269-3ce8ae5e-d3a0-431e-98b0-7cf70ebe4909.png)
 
+Perfom SSH Bruteforce attack:
+
+![image](https://user-images.githubusercontent.com/79543461/215335261-b018ffff-a38b-4005-a2ca-e6c0a8bfba30.png)
+
+Now it's moment to select SSH.
+
+![image](https://user-images.githubusercontent.com/79543461/215335306-9e5b432e-3414-42d5-a425-220ccf91d291.png)
+
+Answer the questions
+
+![image](https://user-images.githubusercontent.com/79543461/215335458-2fec4dab-c63f-4691-b5bd-0cfda4f4b78a.png)
+
+And Found Password:
+
+![image](https://user-images.githubusercontent.com/79543461/215335533-1743bb3c-ec67-4a74-b0cd-c438438357ac.png)
