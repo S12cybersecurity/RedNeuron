@@ -68,7 +68,7 @@ static int bruteforceshell(){
             bruteforcelist();
         }
         else if (op == "clear" || op == "Clear" || op == "CLEAR"){
-            system("clear");
+            system("clear");    
         }
     }
     return 0;

