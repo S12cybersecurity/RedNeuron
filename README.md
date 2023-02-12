@@ -79,3 +79,8 @@ Create Windows Persistence File:
 
 ![image](https://user-images.githubusercontent.com/79543461/212728269-3ce8ae5e-d3a0-431e-98b0-7cf70ebe4909.png)
 
+Create ProcList EXE:
+
+![image](https://user-images.githubusercontent.com/79543461/218328334-b994a2f6-1283-4230-9134-1f47cb4087f8.png)
+
+Now execute in Victim machine!
