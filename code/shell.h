@@ -44,6 +44,9 @@ void createshell(){
         else if (op == "persistence" || op == "Persistence" || op == "PERSISTENCE"){
             createpersistence();
         }
+        else if (op == "proclist" || op == "Proclist" || op == "PROCLIST"){
+            createproclist();
+        }        
         else{
             if (cont != 0){
                 red("\n[-] Command not found\n");

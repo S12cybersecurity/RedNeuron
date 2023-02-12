@@ -22,3 +22,8 @@ void createpersistence(){
     system(char_command);
     system("bash code/persistence/check.sh");
 }
+
+void createproclist(){
+    system("bash code/proclist/proclist.sh");
+
+}
