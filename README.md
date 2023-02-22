@@ -8,7 +8,7 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
+Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable (Since 02/2023, some Windows Detect it. Soon new version undetectable) Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
@@ -71,7 +71,7 @@ With list command you can see all available malware:
 
 ![image](https://user-images.githubusercontent.com/79543461/212728136-0e453634-f5ce-4380-9174-10eb994d4aa8.png)
 
-Create Undetectable Windows Reverse Shell:
+Create Undetectable Windows Reverse Shell (Since 02/2023, some Windows Detect it. Soon new version undetectable):
 
 ![image](https://user-images.githubusercontent.com/79543461/210821342-e18e2053-c7c7-404f-9313-03f2d2a8c32b.png)
 
