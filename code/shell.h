@@ -47,6 +47,9 @@ void createshell(){
         else if (op == "proclist" || op == "Proclist" || op == "PROCLIST"){
             createproclist();
         }        
+        else if(op == "windowinjector" || op == "Windowinjector" || op == "WINDOWINJECTOR"){
+            createWindowInjector();
+        }
         else{
             if (cont != 0){
                 red("\n[-] Command not found\n");

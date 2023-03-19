@@ -25,5 +25,8 @@ void createpersistence(){
 
 void createproclist(){
     system("bash code/proclist/proclist.sh");
+}
 
+void createWindowInjector(){
+    system("bash code/WindowInjector/WindowsInjector.sh");
 }

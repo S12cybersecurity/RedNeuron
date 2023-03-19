@@ -21,15 +21,15 @@ void commandsmenu(){
 }
 
 void createcommands(){
-    cyan("\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware available \n- commands -> List available commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- persistence -> Create EXE to get Persistence in Windows Victim\n- proclist -> Create EXE to list all active processes (Name,PID,Parent PID,User Running it)\n");
+    cyan("\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware available \n- commands -> List available commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- persistence -> Create EXE to get Persistence in Windows Victim\n- proclist -> Create EXE to list all active processes (Name,PID,Parent PID,User Running it)\n- windowinjector -> Create EXE to inject Reverse Shell into a process via Window Name\n");
 }
 
 void createmenu() {
-    cyan("\nHelp Menu for Create\nIf you want to see all malware available execute 'list' command \n\nCreate Section in RedNeuron allow you to use this commands:\n\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware available \n- commands -> List available commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- persistence -> Create EXE to get Persistence in Windows Victim\n- proclist -> Create EXE to list all active processes (Name,PID,Parent PID,User Running it)\n");
+    cyan("\nHelp Menu for Create\nIf you want to see all malware available execute 'list' command \n\nCreate Section in RedNeuron allow you to use this commands:\n\nShell Commands:\n- help -> Show Help Menu\n- list -> List all malware available \n- commands -> List available commands\n- clear -> Clear actual screen\n\nMalware Commands:\n- reverse shell -> Create Undetectable Windows Reverse Shell\n- revshell -> Create Undetectable Windows Reverse Shell\n- persistence -> Create EXE to get Persistence in Windows Victim\n- proclist -> Create EXE to list all active processes (Name,PID,Parent PID,User Running it)\n- windownjector -> Reverse Shell Injected in a Process via Window Name\n");
 }
 
 void listcreate(){
-    cyan("\nYou can create this malware options:\n- Reverse Shell to Bypass Windows Defender (Command 'revshell' or 'reverse shell')\n- EXE to get Persistence in Windows Victim (Command 'persistence')\n- proclist -> Create EXE to list all active processes [Name,PID,Parent PID,User Running it] (Command 'proclist')\n");
+    cyan("\nYou can create this malware options:\n- Reverse Shell to Bypass Windows Defender (Command 'revshell' or 'reverse shell')\n- EXE to get Persistence in Windows Victim (Command 'persistence')\n- proclist -> Create EXE to list all active processes [Name,PID,Parent PID,User Running it] (Command 'proclist')\n- windowinjector -> Create EXE to inject Reverse Shell into a process via Window Name\n");
 }
 
 void bruteforcemenu(){
