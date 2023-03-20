@@ -103,3 +103,12 @@ And get the reverse shell:
 
 ![image](https://user-images.githubusercontent.com/79543461/226189038-42d267da-c474-4014-8cce-aef371dfc855.png)
 
+MySQL Bruteforce:
+
+Enter to bruteforce menu
+
+![image](https://user-images.githubusercontent.com/79543461/226465896-e85fb44d-4991-49dc-a705-d265272b79dc.png)
+
+Execute mysql command:
+
+![image](https://user-images.githubusercontent.com/79543461/226465950-9b022e9e-6645-477b-aa89-a0baec429874.png)
