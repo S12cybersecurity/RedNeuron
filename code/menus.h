@@ -33,11 +33,11 @@ void listcreate(){
 }
 
 void bruteforcemenu(){
-    cyan("\nBruteforce Shell Commands:\n- ssh -> Execute SSH Server Bruteforce\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List bruteforce victim options\n- exit -> Exit from RedNeuron\n");
+    cyan("\nBruteforce Shell Commands:\n- ssh -> Execute SSH Server Bruteforce\n- mysql -> Execute MySQL Bruteforce\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List bruteforce victim options\n- exit -> Exit from RedNeuron\n");
 }
 
 void bruteforcelist(){
-    cyan("\nList Bruteforce Attack Options:\n- SSH\n");
+    cyan("\nList Bruteforce Attack Options:\n- SSH\n- MySQL\n");
 }
 
 bool checkdependeces(){

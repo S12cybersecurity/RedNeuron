@@ -70,6 +70,9 @@ static int bruteforceshell(){
         else if(op == "help" || op == "Help" || op == "HELP" || op == "commands" || op == "Commands" || op == "COMMANDS"){
             bruteforcemenu();
         }
+        else if(op == "mysql" || op == "Mysql" || op == "MYSQL"){
+            system("./code/bruteforce/mysql/bruteMySQL");
+        }
         else if (op == "list" || op == "List" || op == "LIST"){
             bruteforcelist();
         }
