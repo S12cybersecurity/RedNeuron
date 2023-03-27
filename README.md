@@ -79,3 +79,27 @@ Create Windows Persistence File:
 
 ![image](https://user-images.githubusercontent.com/79543461/212728269-3ce8ae5e-d3a0-431e-98b0-7cf70ebe4909.png)
 
+Create ProcList EXE:
+
+![image](https://user-images.githubusercontent.com/79543461/218328334-b994a2f6-1283-4230-9134-1f47cb4087f8.png)
+
+Now execute in Victim machine!
+
+WindowInjector
+
+Run WindowInjector command:
+
+![image](https://user-images.githubusercontent.com/79543461/226188793-a9331bb9-2009-48db-819f-7201132ef2a2.png)
+
+![image](https://user-images.githubusercontent.com/79543461/226188830-cd5ee493-0e8a-49b1-96c4-22c79c1d3820.png)
+
+And Now Execute in Victim machine:
+
+![image](https://user-images.githubusercontent.com/79543461/226189011-ae56b779-04d4-47e6-9376-d4db58eef477.png)
+
+![image](https://user-images.githubusercontent.com/79543461/226189018-dbd3a2b2-4d34-4a1f-b70f-26c7242828c2.png)
+
+And get the reverse shell:
+
+![image](https://user-images.githubusercontent.com/79543461/226189038-42d267da-c474-4014-8cce-aef371dfc855.png)
+
