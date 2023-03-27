@@ -59,6 +59,39 @@ void createshell(){
     }
 }
 
+static int postexploitationshell(){
+    op = "a";
+    while (op != "exit" && op != "Exit" && op != "EXIT"){
+        cout<<"\nRedNeuron@postexploitation-> ";
+        cin>>op;
+        if (op == "help" || op == "Help" || op == "HELP"){
+            postexploitationmenu();
+        }
+        else if (op == "clear" || op == "Clear" || op == "CLEAR"){
+            system("clear");
+        }
+        else if (op == "list" || op == "List" || op == "LIST"){
+           // postexploitationlist();
+        }
+        else if (op == "commands" || op == "Commands" || op == "COMMANDS"){
+         //   postexploitationlist();
+        }
+        else if (op == "file-extractor" || op == "File-extractor" || op == "FILE-EXTRACTOR"){
+            system("./code/postexploitation/file-extractor/file-extractor.sh");
+        }
+        else if (op == "main" || op == "Main" || op == "MAIN"){
+            //soon...
+        }
+        else if (op == "main" || op == "Main" || op == "MAIN"){
+            //soon...
+        }
+        else{
+            red("\n[-] Command not found\n");
+        }
+    }
+    return 0;
+}
+
 static int bruteforceshell(){
     op = "a";
     while (op != "exit" && op != "Exit" && op != "EXIT"){
@@ -118,6 +151,10 @@ static int mainshell(){
         }
         else if (op == "create reverse shell" || op == "Create Reverse Shell" || op == "CREATE REVERSE SHELL"){
             createrevshell();
+        }
+        else if (op == "postexploitation" || op == "Postexploitation" || op == "POSTEXPLOITATION"){
+            postexploitationmenu();
+            postexploitationshell();
         }       
         else{
             red("\n[-] Command not found\n");
