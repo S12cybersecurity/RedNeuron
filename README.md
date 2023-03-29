@@ -8,17 +8,17 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1.2, the uniques 2 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, this tool are developed mainly with 3 languages:
+Actually in Version 1.5, the uniques 5 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, also you have a ProcList tool to list all processes, also exists a FindWindow Tool that tool inject a reverse shell into a remote process via process Window Name, latest tool inside RedNeuron its File Extractor, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
 
-This tool have a shell to use and move inside RedNeuron, in this moment only have two sections
+This tool have a shell to use and move inside RedNeuron, in this moment only have three sections
 - Main
 - Create
+- PostExploitation
 
 Future Malware tools:
-- File Extractor
 - C2 Server
 - KeyLogger
 - Ransomware
@@ -102,4 +102,28 @@ And Now Execute in Victim machine:
 And get the reverse shell:
 
 ![image](https://user-images.githubusercontent.com/79543461/226189038-42d267da-c474-4014-8cce-aef371dfc855.png)
+
+File Extractor
+
+First enter to postexplotation shell:
+
+![image](https://user-images.githubusercontent.com/79543461/228027276-db18e423-7dac-4095-a97f-dea15d308e95.png)
+
+Then execute file-extractor command:
+
+![image](https://user-images.githubusercontent.com/79543461/228027780-2c03032c-6f8d-4e6e-9fe7-5cd6c35f3cca.png)
+
+Now you have in your directory the exe to execute in windows machine to transfer a file to RedNeuron.
+
+You only need to provide the information. And its listening:
+
+![image](https://user-images.githubusercontent.com/79543461/228028022-aedea961-05f0-4039-a065-51cc9ec32196.png)
+
+And in Windows Machine execute it:
+
+![image](https://user-images.githubusercontent.com/79543461/228028227-9b86f83c-8ec6-4094-b0c8-366fe9fbec2c.png)
+
+![image](https://user-images.githubusercontent.com/79543461/228034894-6f593e68-95b6-46eb-9253-3500de17a459.png)
+
+And here you have your transfered file
 
