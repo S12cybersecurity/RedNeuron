@@ -41,7 +41,7 @@ void bruteforcelist(){
 }
 
 void postexploitationmenu(){
-    cyan("\nPost Exploitation Commands:\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List post exploitation options\n- file-extractor -> Exctrat Files from Windows to RedNeuron (Linux)\n- exit -> Exit from RedNeuron\n");
+    cyan("\nPost Exploitation Commands:\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List post exploitation options\n- file-extractor -> Extract Files from Windows to RedNeuron (Linux)\n- mysql-stealer -> Steal MySQL Data\n- exit -> Exit from RedNeuron\n");
 }
 
 bool checkdependeces(){

@@ -79,6 +79,9 @@ static int postexploitationshell(){
         else if (op == "file-extractor" || op == "File-extractor" || op == "FILE-EXTRACTOR"){
             system("./code/postexploitation/file-extractor/file-extractor.sh");
         }
+        else if (op == "mysql-stealer" || op == "Mysql-stealer" || op=="MYSQL-STEALER"){
+            system("./code/postexploitation/MySQL-dataStealer/MySQL_DataStealer.sh");
+        }
         else if (op == "main" || op == "Main" || op == "MAIN"){
             //soon...
         }
