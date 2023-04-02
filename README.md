@@ -8,7 +8,7 @@ https://medium.com/@s12deff/membership
 
 It's developed in Kali Linux machine, and tested in Kali, Athena OS, Ubuntu and Parrot OS. 
 
-Actually in Version 1.5, the uniques 5 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, also you have a ProcList tool to list all processes, also exists a FindWindow Tool that tool inject a reverse shell into a remote process via process Window Name, latest tool inside RedNeuron its File Extractor, this tool are developed mainly with 3 languages:
+Actually in Version 1.6, the uniques 6 malwares options to create is a Undetectable Reverse Shell to bypass Windows Defender, and Persitence file using Run Register, also you have a ProcList tool to list all processes, also exists a FindWindow Tool that tool inject a reverse shell into a remote process via process Window Name, a MySQL Data Stealer using Triggers and C2 Server ,latest tool inside RedNeuron its File Extractor, this tool are developed mainly with 3 languages:
 - C++
 - Python
 - Bash
@@ -127,3 +127,16 @@ And in Windows Machine execute it:
 
 And here you have your transfered file
 
+MySQL Data Stealer:
+
+First of all, this tool its post-exploitation, to enter it we need to execute postexploitation command:
+
+![image](https://user-images.githubusercontent.com/79543461/229364424-e508f76c-55c7-4a36-848b-17200abe6e2d.png)
+
+And now execute mysql-stealer:
+
+![image](https://user-images.githubusercontent.com/79543461/229364439-faf23136-1814-422c-946c-3746a89cd96a.png)
+
+To use it you can check this Medium Post about it!
+
+https://medium.com/@s12deff/mysql-data-stealer-hacking-mysql-26b960bb7d10
