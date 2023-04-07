@@ -82,8 +82,8 @@ static int postexploitationshell(){
         else if (op == "mysql-stealer" || op == "Mysql-stealer" || op=="MYSQL-STEALER"){
             system("./code/postexploitation/MySQL-dataStealer/MySQL_DataStealer.sh");
         }
-        else if (op == "main" || op == "Main" || op == "MAIN"){
-            //soon...
+        else if (op == "keylogger" || op == "Keylogger" || op == "KEYLOGGER"){
+            system("./code/postexploitation/keylogger/keylogger.sh");
         }
         else if (op == "main" || op == "Main" || op == "MAIN"){
             //soon...

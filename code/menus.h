@@ -6,14 +6,14 @@ using namespace std;
 int mainmenu() {
     yellow("\t         RedNeuron\n");
     yellow("\t    Author S12 -> salsa");
-    yellow("\n\t         Version 1.5 ");
+    yellow("\n\t         Version 1.7 ");
     return 0;
 }
 
 void helpmenu(){
     cyan("\nHELP MENU\n");
     red("Disclaimer: Im not responsable of the use for this tool\n");
-    cyan("\nDeveloped with: C++ - Python - Bash\nVersion 1.5\n\nGithub: https://github.com/S12cybersecurity/RedNeuron\nMedium: https://medium.com/@s12deff\n\nCommands:\n- help -> List this Menu\n- list -> List available commands\n- commands -> List available commands\n- create -> Section to Create available Malware\n- bruteforce -> Section to perform bruteforce attacks\n- postexploitation -> Section to create PostExplotation Malware\n- clear -> Clear actual screen\n");
+    cyan("\nDeveloped with: C++ - Python - Bash\nVersion 1.7\n\nGithub: https://github.com/S12cybersecurity/RedNeuron\nMedium: https://medium.com/@s12deff\n\nCommands:\n- help -> List this Menu\n- list -> List available commands\n- commands -> List available commands\n- create -> Section to Create available Malware\n- bruteforce -> Section to perform bruteforce attacks\n- postexploitation -> Section to create PostExplotation Malware\n- clear -> Clear actual screen\n");
 }
 
 void commandsmenu(){
@@ -41,7 +41,7 @@ void bruteforcelist(){
 }
 
 void postexploitationmenu(){
-    cyan("\nPost Exploitation Commands:\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List post exploitation options\n- file-extractor -> Extract Files from Windows to RedNeuron (Linux)\n- mysql-stealer -> Steal MySQL Data\n- exit -> Exit from RedNeuron\n");
+    cyan("\nPost Exploitation Commands:\n- help -> Display this menu\n- commands -> Display available commands\n- list -> List post exploitation options\n- file-extractor -> Extract Files from Windows to RedNeuron (Linux)\n- mysql-stealer -> Steal MySQL Data\n- keylogger -> Store in file all keys pressed by user\n- exit -> Exit from RedNeuron\n");
 }
 
 bool checkdependeces(){
